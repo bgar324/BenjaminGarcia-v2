@@ -21,13 +21,13 @@ const Card = () => {
     <>
     <div className="card-container">
     <Slider {...settings}>
-      <div><img src="slider images/ben_pfp22.png" className="slider" /></div>
-      <div><img src="slider images/IMG_1507.png" className="slider" /></div>
-      <div><img src="slider images/IMG_1547.png" className="slider" /></div>
-      <div><img src="slider images/IMG_1634.png" className="slider" /></div>
-      <div><img src="slider images/IMG_1607.png" className="slider" /></div>
-      <div><img src="slider images/IMG_1687.png" className="slider" /></div>
-      <div><img src="slider images/IMG_1692.png" className="slider" /></div>
+    <div><img src="/public/static/sliderimages/ben_pfp22.png" className="slider" alt="Image 1" /></div>
+    <div><img src="/public/static/sliderimages/IMG_1507.png" className="slider" alt="Image 2" /></div>
+    <div><img src="/public/static/sliderimages/IMG_1547.png" className="slider" alt="Image 3" /></div>
+    <div><img src="/public/static/sliderimages/IMG_1634.png" className="slider" alt="Image 4" /></div>
+    <div><img src="/public/static/sliderimages/IMG_1607.png" className="slider" alt="Image 5" /></div>
+    <div><img src="/public/static/sliderimages/IMG_1687.png" className="slider" alt="Image 6" /></div>
+    <div><img src="/public/static/sliderimages/IMG_1692.png" className="slider" alt="Image 7" /></div>
     </Slider>
     </div>
     </>

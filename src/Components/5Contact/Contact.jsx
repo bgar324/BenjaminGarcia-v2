@@ -13,10 +13,10 @@ const Contact = () => {
           <br />
           <div className="contact-images">
             <a href="https://www.linkedin.com/in/btgarcia05" className="icon-wrapper" target='_blank' rel='noopener noreferrer'>
-              <img src="images/linkedin.svg" className="contact-image" alt="LinkedIn" />
+              <img src="/public/static/images/linkedin.svg" className="contact-image" alt="LinkedIn" />
             </a>
             <a href="https://github.com/bgar324" className="icon-wrapper" target='_blank' rel='noopener noreferrer'>
-              <img src="images/github.svg" className="contact-image" alt="GitHub" />
+              <img src="/public/static/images/github.svg" className="contact-image" alt="GitHub" />
             </a>
           </div>
         </div>
