@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+.projects-container{
+  display: flex;
+  border: 2px solid red;
+  max-width: 70rem;
+  height: 25rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.project-image{
+  width: 35rem;
+  height: 100%;
+  border-radius: 1rem 0 0 1rem;
+  overflow: hidden;
+}
+
+.project-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.project{
+  background-color: white;
+  width: 35rem;
+  height: auto;
+  border-radius: 0 1rem 1rem 0;
+  padding: 2rem;
+}
+
+.project-title{
+  margin: 0;
+  padding: 0;
+  color: #252425;
+  background-color: transparent;
+  font-size: 1.8rem;
+}
+
+.project-description{
+  line-height: 2.5;
+  margin: 0;
+  padding: 0;
+  color: #252425;
+  background-color: transparent;
+}
+
+.project-languages{
+  margin-top: 1rem;
+  background-color: transparent;
+  display: flex;
+  width: auto;
+}
+
+.p-lang{
+  background-color: transparent;
+  color: #252425;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+.projects-container:hover {
+  transform: scale(1.1); /* Grows the container by approximately 10rem */
+}
+
+.project-image, 
+.project-image img, 
+.project, 
+.project-title, 
+.project-description, 
+.project-languages, 
+.p-lang {
+  transition: transform 0.3s ease;
+}
+
+.projects-container:hover .project-image, 
+.projects-container:hover .project-image img, 
+.projects-container:hover .project, 
+.projects-container:hover .project-title, 
+.projects-container:hover .project-description, 
+.projects-container:hover .project-languages, 
+.projects-container:hover .p-lang {
+  transform: scale(1.1); /* Ensures all contents grow in sync */
+}

@@ -1,0 +1,45 @@
+.languages-container {
+  outline: 1px solid white;
+  width: 80rem;
+  display: grid;            
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;  
+  gap: 1rem;             
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2px;
+  box-shadow: 0px 3px 36px -1px #820B0D;          
+}
+
+.languages-container a{
+  display: flex;
+  justify-content: center;
+}
+
+.image-text-container {
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.image-text-container:hover .l-image {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(-50deg);
+}
+
+.image-text-container:hover .image-caption {
+  color: #FF6666; /* Text color on hover */
+}
+
+.l-image {
+  width: 3rem;
+  height: auto;
+  filter: invert(1);
+  background: transparent;
+  transition: filter 0.3s ease;
+}
+
+.image-caption {
+  margin-top: 0.5rem;
+  transition: color 0.3s ease;
+}

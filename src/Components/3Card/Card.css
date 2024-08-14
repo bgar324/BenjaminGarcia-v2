@@ -1,0 +1,15 @@
+.card-container {
+  display: inline-block;
+  white-space: normal;
+  height: 29rem;
+  width: 22rem; /* Adjusted to allow space for margins */
+  text-align: center;
+}
+
+.slider {
+  border: 2px solid white;
+  border-radius: 25%;
+  height: auto;
+  width: 20rem; /* Adjust the width */
+  margin: 0 1rem; /* Add spacing between the slides */
+}

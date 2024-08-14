@@ -1,0 +1,21 @@
+.abme-card {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+  gap: 10rem;
+}
+
+.about-me {
+  margin-left: 20rem;
+  flex: 1;
+}
+
+.card {
+  flex: 1;
+}
+
+.languages {
+  margin-top: 4rem;
+  margin-left: 17%;
+  flex: 1;
+}

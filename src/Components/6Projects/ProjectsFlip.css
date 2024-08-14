@@ -1,0 +1,89 @@
+.projects-container-flip{
+  display: flex;
+  border: 2px solid red;
+  width: 70rem;
+  height: 25rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.project-image-flip{
+  width: 35rem;
+  height: 100%;
+  border-radius: 0 1rem 1rem 0;
+  overflow: hidden;
+}
+
+.project-image-flip img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.project-flip{
+  background-color: white;
+  width: 35rem;
+  height: auto;
+  border-radius: 1rem 0 0 1rem;
+  padding: 2rem;
+}
+
+.project-title-flip{
+  margin: 0;
+  padding: 0;
+  color: #252425;
+  background-color: transparent;
+  font-size: 1.8rem;
+}
+
+.project-description-flip{
+  line-height: 2.5;
+  margin: 0;
+  padding: 0;
+  color: #252425;
+  background-color: transparent;
+}
+
+.project-languages-flip{
+  margin-top: 1rem;
+  background-color: transparent;
+  display: flex;
+  width: auto;
+}
+
+.p-lang-flip{
+  background-color: transparent;
+  color: #252425;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+.projects-container-flip:hover {
+  transform: scale(1.1); /* Grows the container by approximately 10rem */
+}
+
+.project-image-flip, 
+.project-image-flip img, 
+.project-flip, 
+.project-title-flip, 
+.project-description-flip, 
+.project-languages-flip, 
+.p-lang-flip {
+  transition: transform 0.3s ease;
+}
+
+.projects-container:hover .project-image, 
+.projects-container:hover .project-image img, 
+.projects-container:hover .project, 
+.projects-container:hover .project-title, 
+.projects-container:hover .project-description, 
+.projects-container:hover .project-languages, 
+.projects-container:hover .p-lang {
+  transform: scale(1); /* Ensures all contents grow in sync */
+}
