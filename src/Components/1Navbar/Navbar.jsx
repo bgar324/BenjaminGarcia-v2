@@ -11,7 +11,7 @@ const Navbar = () => {
 
       <nav className="navbar">
         <Link to ="/">Home</Link>
-        <a href = "/public/static/images/resume.docx (3).pdf">Resume</a>
+        <a href = "/static/images/resume.docx (3).pdf">Resume</a>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
       </nav>

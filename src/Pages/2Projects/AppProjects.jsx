@@ -14,7 +14,7 @@ const AppProjects = () => {
       <div className="projects">
       <Projects
         link="https://www.youtube.com"
-        imageSrc="/public/static/images/portfolio-image.png"
+        imageSrc="/static/images/portfolio-image.png"
         title="Personal Portfolio"
         description="Check out my portfolio and let me know what you think! I built it using React JS, Vite, and CSS to showcase my projects and my skills. My goal was to create a platform with the focus of networking and connecting with others. I'm excited to network and explore new opportunities together, so feel free to reach out!"
         languages={['React', 'Vite', 'CSS']}
@@ -22,7 +22,7 @@ const AppProjects = () => {
 
       <ProjectFlips
         link="https://github.com/bgar324/suika"
-        imageSrc="/public/static/images/suika.png"
+        imageSrc="/static/images/suika.png"
         title="Suika Remake in Python"
         description="asfsfd"
         languages={['Python','Pygame','Pymunk']}
@@ -30,7 +30,7 @@ const AppProjects = () => {
 
       <Projects
         link="https://beautiful-gumption-a0ca0e.netlify.app/"
-        imageSrc="/public/static/images/weather.png"
+        imageSrc="/static/images/weather.png"
         title="Real Time Weather"
         description="asdfs"
         languages={['HTML', 'CSS', 'JavaScript', 'OpeanWeather API']}
