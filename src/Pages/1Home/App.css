@@ -1,22 +1,31 @@
+.big-container {
+  max-width: 1200px; 
+  margin: 0 auto;  
+}
+
 .abme-card {
   display: flex;
   align-items: flex-start;
   margin-top: 2rem;
-  gap: 10rem;
+  gap: 10rem; 
 }
 
 .about-me {
-  margin-left: 20rem;
-  flex: 1;
+  flex: 1; 
 }
 
 .card {
-  flex: 1;
+  flex: 1;  
 }
 
 .languages {
-  margin-top: 4rem;
-  margin-left: 17%;
+  margin-top: 3rem;
   flex: 1;
+  text-align: center;
 }
 
+.master-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

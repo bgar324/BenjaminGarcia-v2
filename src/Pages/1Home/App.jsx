@@ -11,13 +11,15 @@ import AppContact from '../3Contact/AppContact';
 const App = () => {
   return (
     <>
+    <div className="master-nav">
       <Navbar />
+    </div>
       <Routes>
         {/* Home route */}
         <Route 
           path="/" 
           element={
-            <div>
+            <div className ="big-container">
               <div className="abme-card">
                 <div className="about-me"><AboutMe /></div>
                 <div className="card"><Card /></div>

@@ -1,4 +1,6 @@
 .contact{
-  margin-top: 8rem;
-  margin-left: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
 }

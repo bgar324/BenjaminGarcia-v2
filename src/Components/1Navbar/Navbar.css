@@ -1,13 +1,12 @@
-.header{
-  position: static;
-  top: 0;
-  left: 0;
+.header {
   width: 100%;
-  padding: 3rem 20rem;
-  background: transparent;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 3rem .5rem; 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .logo{
@@ -16,11 +15,17 @@
   font-weight: 700;
 }
 
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
 .navbar a{
   position: relative;
   font-size: 18px;
   color: #fff;
   font-weight: 500;
+  text-decoration: none;
   margin-left: 40px;
   transition: 0.3s ease;
 }
