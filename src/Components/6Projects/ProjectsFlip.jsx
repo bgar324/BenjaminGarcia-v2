@@ -3,23 +3,26 @@ import './ProjectsFlip.css'
 
 const ProjectFlips = ({ link, imageSrc, title, description, languages }) => {
   return (
-    <a href={link} target='_blank' rel="noopener noreferrer">
-      <div className="projects-container-flip">
-        <div className="project-flip">
-          <h2 className="project-title-flip">{title}</h2>
-          <p className="project-description-flip">{description}</p>
-          <div className="project-languages-flip">
-            {languages.map((language, index) => (
-              <p className="p-lang-flip" key={index}>{language}</p>
-            ))}
-          </div>
-        </div>
-        <div className="project-image-flip">
-          <img src={imageSrc} alt={title} />
+    <div className="projects-container">
+      <div className="project">
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <h2 className="project-title">{title}</h2>
+        </a>
+        <p className="project-description">{description}</p>
+        <div className="project-languages">
+          {languages.map((language, index) => (
+            <p className="p-lang" key={index}>{language}</p>
+          ))}
         </div>
       </div>
-    </a>
+      <a href={link} target="_blank" rel="noopener noreferrer" className="project-image-link">
+        <div className="project-image">
+          <img src={imageSrc} alt={title} />
+        </div>
+      </a>
+    </div>
   )
 }
 
 export default ProjectFlips
+
