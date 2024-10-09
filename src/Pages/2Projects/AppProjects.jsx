@@ -20,7 +20,15 @@ const AppProjects = () => {
         languages={['React', 'Vite', 'CSS']}
       />
 
-      <ProjectFlips
+      <ProjectFlips 
+        link="https://github.com/bgar324/cs-club-website"
+        imageSrc="/static/images/cs-club-web.png"
+        title="Mt. SAC CS Club Website"
+        description="Spearheaded a complete overhaul of the Mt. SAC Computer Science Club website. Featuring a cleaner design and improved functionaility. Providing up-to-date contact information, showcasing current officers and club advisors, as well as information about upcoming and past events. Along with open source opportunities."
+        languages={['Work in Progress', 'React', 'CSS']}
+      />
+
+      <Projects
         link="https://github.com/bgar324/suika"
         imageSrc="/static/images/suika.png"
         title="Suika Remake in Python"
@@ -28,7 +36,7 @@ const AppProjects = () => {
         languages={['Python','Pygame','Pymunk']}
       />
 
-      <Projects
+      <ProjectFlips
         link="https://beautiful-gumption-a0ca0e.netlify.app/"
         imageSrc="/static/images/weather.png"
         title="Real Time Weather"
